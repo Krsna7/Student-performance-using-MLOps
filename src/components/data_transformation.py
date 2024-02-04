@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 from src.exception import CustomException
 from src.logger import logging
-from src.components.data_ingestion import DataIngestion
+
 
 from src.utils import save_object
 
