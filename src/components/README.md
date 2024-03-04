@@ -14,9 +14,14 @@
 4. return the preprocessor.
 
 5. Preprocess the data.
-6. Divide the data into feature and output variable.
-7. save the file ready to use in the file location created
-8. return the path of the train test data.
+6. save the file ready to use in the file location created
+7. return the path of the train test data.
+
+## Model trainer
+
+1. Split the training and testing data into feature and output.
+2. define the models we need to train.
+3. extract the best model depending on r2 score or any score metric and return it.
 
 
 
