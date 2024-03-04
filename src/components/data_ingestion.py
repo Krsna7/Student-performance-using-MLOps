@@ -14,12 +14,14 @@ from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 @dataclass
 class DataIngestionConfig:
+    # This gives the path to the dataingestion components to save the files
     train_data_path: str=os.path.join('artifacts',"train.csv")
     test_data_path: str=os.path.join('artifacts',"test.csv")
     raw_data_path: str=os.path.join('artifacts',"data.csv")
 
 class DataIngestion:
     def __init__(self):
+        # this variable stores paths
         self.ingestion_config=DataIngestionConfig()
 
     def initiate_data_ingestion(self):
