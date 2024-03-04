@@ -12,6 +12,7 @@ from src.components.data_transformation import DataTransformationConfig
 
 from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
+
 @dataclass
 class DataIngestionConfig:
     # This gives the path to the dataingestion components to save the files

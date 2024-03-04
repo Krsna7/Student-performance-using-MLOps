@@ -40,8 +40,8 @@ class DataTransformation:
             
             num_pipeline = Pipeline(
                 steps=[
-                    ('imputer',SimpleImputer(strategy='median')),
-                    ('scaler',StandardScaler())
+                    ('imputer',SimpleImputer(strategy='median')),# Handles missing values
+                    ('scaler',StandardScaler())# Standardizes the features to have mean 0 and variance 1.
                 ]
             )
             
