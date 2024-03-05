@@ -6,5 +6,6 @@ scikit-learn
 catboost 
 xgboost
 dill
+flask
 # This will trigger the setup.py file
-# -e .
+-e .
