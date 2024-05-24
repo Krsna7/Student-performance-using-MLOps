@@ -4,7 +4,7 @@ Welcome to EduMetrics, a project focused on student performance metrics using Li
 
 ---
 ![Home Page](src/assets/1spm.png)
-*Home Page of QuizKraft*
+*Home Page of EduMetrics*
 
 ## 📚 Project Overview
 
